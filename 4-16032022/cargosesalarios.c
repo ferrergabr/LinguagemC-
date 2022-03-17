@@ -1,12 +1,6 @@
 /*Programa para cacular os salarios de seus respectivos cargos*/
 
 #include <stdio.h>
-#define SALARIODIRETOR 15.000,00
-#define SALARIOGERENTE 12.000,00
-#define SALARIOANALISTA 8.000,00
-#define SALARIOASSISTENTE 4.000,00 
-#define SALARIOAUXILIAR 2.000,00
-#define SALARIOOUTROS 0000,00 
 
 int main(){
 char cargo [15];
@@ -33,4 +27,4 @@ else{
     printf("Não há salário");
 }
 return 0; 
-}
+} 
